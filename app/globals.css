@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-primary);
+  background: rgb(22, 21, 34);
+  background: radial-gradient(
+    circle,
+    rgba(22, 21, 34, 1) 0%,
+    rgba(22, 22, 61, 0.8996848739495799) 35%,
+    rgba(10, 39, 45, 1) 100%
+  );
+  color: whitesmoke;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
